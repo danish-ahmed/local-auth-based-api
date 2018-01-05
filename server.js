@@ -7,7 +7,7 @@ var express = require('express'),
     config = require('./config'),
     User = require('./models/user')
 
-    apiRouter = require('./apiPouter');
+    apiRouter = require('./apiRouter');
 
 var app = express();
 // Configuration
